@@ -8,10 +8,10 @@ function App() {
 
   return (
    
-      <div className='w-full h-screen duration-200'
+      <div className='w-screen h-screen absolute top-0 left-0 '
       style = {{backgroundColor:color}}
       >
-        <div className='fixed flex flex-wrap justify-center top-12 inset-x-0 px-2'>
+        { <div className='fixed flex flex-wrap justify-center top-12 inset-x-0 '>
           <div className='flex flex-wrap justify-center gap-3 shadow-lg bg-white px-3 py-2 rounded-2xl'>
 
             <button
@@ -69,7 +69,7 @@ function App() {
               black
             </button>
           </div>
-        </div>
+        </div> }
           
       </div>
   )
